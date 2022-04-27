@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+   html{
+    background: url("cms.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width:400px;
+    align-items: center;
+    margin-left: 300px;
+    margin-top:50px;
+    margin-bottom: 0px;
+    
+    
+   
+   }
+  
+  body{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-size: cover;
+  }
+  .container{
+    width: 250px; 
+    border-radius: 10px;
+    padding: 40px 30px;
+    margin-top: 20px;
+    box-shadow: -3px -3px 9px #aaa9a9a2,
+                3px 3px 7px rgb(147, 149, 151);
+
+   
+  }
+  .container .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: dodgerblue;
+   
+  }
+  
+  .container .field{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+  
+  .field input{
+    height: 60%;
+    width: 80%;
+    padding-left: 45px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    color: #e0d2d2;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    background: rgba(105, 105, 105, 0.3);
+  }
+
+  button{
+    margin: 15px 0 0 0;
+    width: 50%;
+    height: 25px;
+    color: rgb(238, 226, 226);
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid rgba(255, 255, 255, 0.438);
+    border-radius: 8px;
+    background: rgba(105, 105, 105, 0);
+    margin-top: 15px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    color:white;
+   
+  }
+  .icon-button{
+    margin-top: 15px;
+  }
+  
+  .icon-button i{
+    text-align: center;
+    align-items: center;
+    color: rgba(244, 247, 250, 0.795);
+    border-radius: 5px;
+    line-height: 20px;
+    width: 25px;
+    background: rgba(255, 255, 255, 0.164);
+    backdrop-filter: blur(10px);
+  }
+  
+  .icon-button i.facebook{
+    margin-right: 17px;
+  }
+  
+  button:hover,
+  .icon-button i:hover{
+    background-color: #0c0c0c8c;
+  }
+  .link a{
+       color:azure;
+       font-size: 20px;
+       font-weight: 600px;
+       text-align: center;
+       align-items: center;
+       font-family: 'Times New Roman', Times, serif;
+ 
+  }
+  .link a:hover{
+      
+      color:black
+  }
+  .register{
+      color:azure;
+      font-size: 15px;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      align-items: center;
+  }
+
+  
+  
+  
